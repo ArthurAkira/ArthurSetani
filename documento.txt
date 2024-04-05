@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="navbar">
+    <nav>
+        <div class="logo">
+            <a href="#">
+                <img src="imgs/toywhie.png">
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li class="link"><a href="#">Home</a></li>
+            <li id="link1" class="link"><a href="#">&lt/&gt</a></li>
+            <li id="link2" class="link"><a href="#">Contact Me</a></li>
+        </ul>
+    </nav>
+    </div>
+
+
+    <header class="container">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h4>Quem eu sou:</h4>
+            <h1>Olá, Eu sou o <span>Arthur</span>, Student Developer</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div class="school">
+            <p>Cursos/Faculdades que frenquentei:</p>
+            <ul>
+                <li><a href="https://cotuca.unicamp.br">Cotuca</a> - Desenvolvimento de Sistemas
+                <li><a href="https://www.unip.br">Unip</a> - Ciências da Computação
+            </ul>
+            <img src="" alt="">
+        </div>
+    </header>
+    
+    <section class="container">
+        <h2 class="header"> Código do site &lt/&gt</h2>
+        <div class="code">
+            <div class ="card">
+                    <span><i class="ri-html5-fill"></i></span>
+                    <h4>HTML</h4>
+                    <iframe src="documento.txt" width="600" height="700"></iframe>
+            </div>
+                <div class ="card">
+                    <span><i class="ri-css3-fill"></i></span>
+                    <h4>CSS</h4>
+                    <iframe src="documentocss.txt" width="600" height="400"></iframe>
+               </div>
+        </div>
+    </section>
+
+    <footer class="container">
+
+        <div class="column">
+            <div class="logo">
+                <img src="imgs/toywhie.png" alt="" srcset="">
+            </div>
+            <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+        </div>
+        <div class="column">
+                 <h4>Contatos</h4>
+                 <a href="#">+55 (19) 98242-7176</a>
+                 <a href="#">arthur.akira.toyonaga@gmail.com</a>
+                 <a href="#">arthur.ats@icloud.com"</a>
+        </div>
+        <div class="column">
+            <h4>Outros</h4>
+            <a href="#">Privicy Policy</a>
+            <a href="https://github.com/kyraji"><i class="ri-git-branch-fill"></i>Github</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+        <span class="blur2"></span>
+        <span class="blur2"></span>
+    </footer>
+    <div class="copyright">
+        Copyright @2024 Arthur Akira. All Rights Reserved.
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

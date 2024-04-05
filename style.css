@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+
+img{
+    width: 100%;
+    display: flex;
+}
+
+.logo{
+max-width: 100px;
+}
+
+a{ 
+    text-decoration: none;
+}
+
+body{
+    font-family:'Poppin',sans-serif;
+    background-color: #18181B;
+}
+
+nav{
+    max-width: 1200px;
+    padding: 2rem 1rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.nav-links{
+    float: left;
+    font-size: 25px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap:3rem;
+}
+
+
+.link a{
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: #fff;
+}
+
+.link a::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #ff0420;
+    transition: all 0.3s ease;
+}
+
+.link a:hover::after{
+    width: 100%;
+}
+
+.container{
+    max-width: 1200px;
+    margin:auto;
+    pad: 5rem,2rem;
+}
+
+.blur{
+    position: absolute;
+    box-shadow: 0 0 5000px 50px rgb(131, 137, 223);
+    z-index: -100;
+}
+
+.blur2{
+    position: absolute;
+    box-shadow: 0 0 2000px 50px rgb(131, 137, 223);
+    z-index: -100;
+}
+
+
+header{
+    position: relative;
+    padding-top:2rem;
+    display:flex;
+    grid-template-columns: repeat(2,1fr);
+    align-self: center;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .content h4{
+    margin-bottom: 1rem;
+    color:#ffff ;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+header .content h1{
+    margin-bottom: 1rem;
+    color:#ffff ;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+header .content h1 span{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+}
+
+header .content p{
+    margin-bottom: 2rem;
+    color:#ccc ;
+
+}
+
+
+header .school p{
+    font-size: 25px;
+    margin-bottom: 2rem;
+    color:#fff ;
+
+}
+
+header .school{
+    padding: 3rem;
+    border:2px solid  #fff;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    color:#ccc ;
+    margin-left: 5rem;
+    transition: all 0.3s ease;
+}
+
+header .school a{
+    margin-bottom: 2rem;
+    color:#fff ;
+    transition: all 0.3s ease;
+}
+
+header .school a:hover{
+    color: rgb(1, 8, 99);
+}
+
+header .school:hover{
+    background-color: rgb(41, 41, 41);
+}
+
+iframe{
+    border-radius: 15px;
+}
+
+section .header{
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.code{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+
+.code .card{
+    background-color: #30303a;
+    padding: 1rem;
+    border-radius: 15px;
+    border: 2px solid transparent;
+    transition: all  0.3s ease; 
+    margin-bottom: 15rem;
+}
+
+.code .card:hover{
+    background-color: #323232;
+    border-color: #fff;
+}
+
+.code .card span{
+    display: inline-block;
+    background-color: #1e40af;
+    padding: 2px 9px;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.code .card h4{
+    margin-bottom: 0,5rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+footer{
+
+    position: relative;
+    display: grid;
+    grid-template-columns: 600px repeat(3 ,1fr);
+    gap: 2rem;
+}
+
+footer .column .logo{
+    max-width: 100px;
+    margin-bottom: 2rem;
+}
+
+footer .column p{
+    color: #ccc;
+    margin-bottom: 2rem;
+}
+
+footer .column .a{
+    color: #ccc;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    border-radius: 100%;
+}
+
+footer .column h4{
+    display: block;
+    color: #fff;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+footer .column >a{
+    display: block;
+    color: #ccc;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+
+footer .column >a:hover{
+    color: #1d5ed8;
+}
+
+.copyright
+{
+    color: #fff;
+    max-width: 1200px;
+    padding: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
